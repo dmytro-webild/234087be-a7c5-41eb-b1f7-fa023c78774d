@@ -6,15 +6,15 @@
 
 :root {
   /* Dark theme with monochrome accents */
-  --background: #0a0a0a;
-  --card: #1a1a1a;
-  --foreground: #f8f5ffe6;
-  --primary-cta: #c89bff;
-  --primary-cta-text: #0a0a0a;
-  --secondary-cta: #1a1a1a;
-  --secondary-cta-text: #f8f5ffe6;
-  --accent: #737373;
-  --background-accent: #737373;
+  --background: #000000;
+  --card: #481f1f;
+  --foreground: #ffffff;
+  --primary-cta: #ffffff;
+  --primary-cta-text: #280101;
+  --secondary-cta: #361311;
+  --secondary-cta-text: #f6d4d4;
+  --accent: #51000b;
+  --background-accent: #ff2231;
 
   /* @layout/border-radius/soft */
   --radius: 1.5rem;
