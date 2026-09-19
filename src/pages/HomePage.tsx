@@ -13,10 +13,8 @@ import PromiseSection from './HomePage/sections/Promise';
 import MetricsSection from './HomePage/sections/Metrics';
 import TeamSection from './HomePage/sections/Team';
 import FaqSection from './HomePage/sections/Faq';
-import ContactSection from './HomePage/sections/Contact';
 
-
-import ContactPersonalSection from './HomePage/sections/ContactPersonal';export default function HomePage(): React.JSX.Element {
+export default function HomePage(): React.JSX.Element {
   return (
     <StyleProvider siteBackground="aurora" heroBackground="lightRaysCorner" buttonVariant="stagger">
       <SiteBackgroundSlot />
@@ -32,9 +30,6 @@ import ContactPersonalSection from './HomePage/sections/ContactPersonal';export 
       <TeamSection />
 
       <FaqSection />
-
-      <ContactSection />
-      <ContactPersonalSection />
     </StyleProvider>
   );
 }
