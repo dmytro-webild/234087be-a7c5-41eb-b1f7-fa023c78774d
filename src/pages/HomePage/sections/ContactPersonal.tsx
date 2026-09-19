@@ -1,4 +1,3 @@
-import Button from "@/components/ui/Button";
 import TextAnimation from "@/components/ui/TextAnimation";
 import ScrollReveal from "@/components/ui/ScrollReveal";
 import ImageOrVideo from "@/components/ui/ImageOrVideo";
@@ -6,8 +5,8 @@ import { Mail, Calendar } from "lucide-react";
 
 export default function ContactPersonalSection() {
   return (
-    <section id="contact-personal" data-webild-section="contact-personal" className="bg-background py-16 md:py-24">
-      <div className="w-content-width mx-auto flex flex-col gap-12">
+    <section id="contact-personal" data-webild-section="contact-personal" className="bg-background">
+      <div className="w-content-width mx-auto flex flex-col">
         <div className="flex flex-col items-center gap-3 text-center">
           <div className="px-3 py-1 text-sm card rounded w-fit">
             <p className="text-accent uppercase tracking-wider text-xs font-semibold">Direct Access</p>
@@ -26,12 +25,12 @@ export default function ContactPersonalSection() {
             variant="slide-up"
             gradientText={false}
             tag="p"
-            className="text-lg text-accent max-w-2xl"
+            className="text-lg text-accent max-w-content-width"
           />
         </div>
 
         <ScrollReveal variant="slide-up">
-          <div className="card rounded-theme p-8 md:p-12 flex flex-col lg:flex-row items-center justify-between gap-8 md:gap-12">
+          <div className="card rounded-theme p-8 flex flex-col lg:flex-row items-center justify-between gap-8">
             <div className="flex flex-col sm:flex-row items-center gap-6 text-center sm:text-left">
               <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden shrink-0 border-2 border-primary-cta/20 shadow-md">
                 <ImageOrVideo
@@ -45,7 +44,7 @@ export default function ContactPersonalSection() {
                   Co-CEO & Strategy
                 </span>
                 <h3 className="text-2xl md:text-3xl font-semibold text-foreground">Cole Glines</h3>
-                <p className="text-accent text-sm md:text-base max-w-md leading-relaxed">
+                <p className="text-accent text-sm md:text-base max-w-content-width leading-relaxed">
                   Ready to elevate your digital presence? Reach out directly to Cole for custom web strategies, AI receptionist integration, and Meta ad campaign performance.
                 </p>
               </div>
