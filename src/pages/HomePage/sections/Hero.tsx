@@ -9,9 +9,9 @@ export default function HeroSection(): React.JSX.Element {
     <div id="hero" data-section="hero">
               <HeroSplitVerticalMarqueeTall
         textAnimation="fade-blur"
-        tag="Ascentra Digital Agency"
-        title="Scale Your Business with Smart Web & AI Solutions"
-        description="We specialize in Website Creation & Upgrades, 24/7 AI Receptionist Services, and targeted Meta Advertisements designed to attract customers and scale your business."
+        tag="Ascentra — Digital Growth Agency"
+        title="Accelerate Business Growth with Modern Web & AI Solutions"
+        description="Ascentra empowers growing businesses with custom Website Creation & Upgrades, 24/7 AI Receptionist Services, and high-converting Meta Advertisements."
         primaryButton={{ text: "Start Project", href: "#contact" }}
         secondaryButton={{ text: "View Work", href: "#work" }}
         leftItems={[
