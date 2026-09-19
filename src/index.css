@@ -13,7 +13,7 @@
   --primary-cta-text: #f6f0e9;
   --secondary-cta: #efe7dd;
   --secondary-cta-text: #2b180a;
-  --accent: #94877c;
+  --accent: #4a3a2c;
   --background-accent: #afa094;
 
   /* @layout/border-radius/soft */
@@ -34,20 +34,20 @@
   --width-carousel-item-4: calc(var(--width-content-width) / 4 - var(--vw-1_5) / 4 * 3);
 
   /* @typography/text-sizing/medium */
-  --text-2xs: clamp(0.465rem, 0.62vw, 0.62rem);
-  --text-xs: clamp(0.54rem, 0.72vw, 0.72rem);
-  --text-sm: clamp(0.615rem, 0.82vw, 0.82rem);
-  --text-base: clamp(0.69rem, 0.92vw, 0.92rem);
-  --text-lg: clamp(0.75rem, 1vw, 1rem);
-  --text-xl: clamp(0.825rem, 1.1vw, 1.1rem);
-  --text-2xl: clamp(0.975rem, 1.3vw, 1.3rem);
-  --text-3xl: clamp(1.2rem, 1.6vw, 1.6rem);
-  --text-4xl: clamp(1.5rem, 2vw, 2rem);
-  --text-5xl: clamp(2.025rem, 2.75vw, 2.75rem);
-  --text-6xl: clamp(2.475rem, 3.3vw, 3.3rem);
-  --text-7xl: clamp(3rem, 4vw, 4rem);
-  --text-8xl: clamp(3.5rem, 4.5vw, 4.5rem);
-  --text-9xl: clamp(5.25rem, 7vw, 7rem);
+  --text-2xs: clamp(0.65rem, 0.8vw, 0.75rem);
+  --text-xs: clamp(0.75rem, 0.9vw, 0.85rem);
+  --text-sm: clamp(0.875rem, 1vw, 0.95rem);
+  --text-base: clamp(1rem, 1.25vw, 1.125rem);
+  --text-lg: clamp(1.125rem, 1.5vw, 1.25rem);
+  --text-xl: clamp(1.25rem, 1.75vw, 1.5rem);
+  --text-2xl: clamp(1.5rem, 2vw, 1.75rem);
+  --text-3xl: clamp(1.75rem, 2.5vw, 2.25rem);
+  --text-4xl: clamp(2.25rem, 3vw, 2.75rem);
+  --text-5xl: clamp(2.75rem, 3.75vw, 3.5rem);
+  --text-6xl: clamp(3.5rem, 4.5vw, 4.25rem);
+  --text-7xl: clamp(4.25rem, 5.5vw, 5.25rem);
+  --text-8xl: clamp(5rem, 6.5vw, 6rem);
+  --text-9xl: clamp(6.5rem, 8.5vw, 8rem);
 }
 
 /* Smaller laptops (< 14" MacBook) */
