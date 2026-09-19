@@ -2,19 +2,31 @@
 // file as the canonical source for the "contact" section.
 
 import React from 'react';
-import ContactCenter from "@/components/sections/contact/ContactCenter";
+import ContactSplitForm from "@/components/sections/contact/ContactSplitForm";
 
 export default function ContactSection(): React.JSX.Element {
   return (
-    <div id="contact" data-section="contact">
-              <ContactCenter
-                textAnimation="fade-blur"
-                tag="Get in Touch"
-                title="Ready to Transform Your Digital Presence?"
-                description="Let's build something extraordinary together. Get in touch and let's discuss your next project."
-                inputPlaceholder="Enter your email"
-                buttonText="Start Your Project"
-              />
-            </div>
+    <section id="contact" data-webild-section="contact" className="py-12 bg-background">
+      <ContactSplitForm
+        tag="Get in Touch"
+        title="Ready to Transform Your Digital Presence?"
+        description="Let's build something extraordinary together. Send us a message and our team will get back to you shortly."
+        inputs={[
+          { name: "name", type: "text", placeholder: "Your Name", required: true },
+          { name: "email", type: "email", placeholder: "Your Email Address", required: true },
+          { name: "phone", type: "tel", placeholder: "Phone Number (Optional)", required: false },
+          { name: "company", type: "text", placeholder: "Company Name (Optional)", required: false }
+        ]}
+        textarea={{
+          name: "message",
+          placeholder: "How can we help you accelerate your business?",
+          rows: 4,
+          required: true
+        }}
+        buttonText="Send Message"
+        imageSrc="https://picsum.photos/seed/1792440964/1200/800"
+        textAnimation="slide-up"
+      />
+    </section>
   );
 }
