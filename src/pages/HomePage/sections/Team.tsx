@@ -9,14 +9,14 @@ export default function TeamSection(): React.JSX.Element {
       name: "Cole Glines",
       role: "Co-CEO & Strategy",
       description: "Leading strategic vision, client partnerships, and business growth at Ascentra.",
-      imageSrc: "https://storage.googleapis.com/webild/users/user_3JQU3pRqc2xbd0vbgOX0M4axBzx/uploaded-1789798780523-mg90s697.jpg",
+      imageSrc: "https://storage.googleapis.com/webild/users/user_3JQU3pRqc2xbd0vbgOX0M4axBzx/uploaded-1789798780523-mg90s697.jpg?_wi=2",
       imageAlt: "Cole Glines - CEO of Ascentra",
     },
     {
       name: "Cole Atkinson",
       role: "Co-CEO & Technology",
       description: "Driving AI innovation, custom web architecture, and technical mastery at Ascentra.",
-      imageSrc: "https://storage.googleapis.com/webild/users/user_3JQU3pRqc2xbd0vbgOX0M4axBzx/uploaded-1789798780524-ioljuu47.jpg",
+      imageSrc: "https://storage.googleapis.com/webild/users/user_3JQU3pRqc2xbd0vbgOX0M4axBzx/uploaded-1789798780524-ioljuu47.jpg?_wi=2",
       imageAlt: "Cole Atkinson - CEO of Ascentra",
     },
   ];
