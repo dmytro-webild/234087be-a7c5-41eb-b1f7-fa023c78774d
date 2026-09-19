@@ -10,20 +10,20 @@ export default function Layout() {
     <StyleProvider buttonVariant="default" siteBackground="none" heroBackground="none">
       <SiteBackgroundSlot />
       <NavbarDropdown
-                logo="Webild"
+                logo="Ascentra"
                 navItems={[
                   { name: "Services", href: "#services" },
                   { name: "Work", href: "#work" },
                   { name: "Team", href: "#team" },
                   { name: "Contact", href: "#contact" },
                 ]}
-                ctaButton={{ text: "Start Project", href: "#contact" }}
+                ctaButton={{ text: "Get Started", href: "#contact" }}
               />
       <main className="flex-grow">
         <Outlet />
       </main>
       <FooterSimpleReveal
-                brand="Webild"
+                brand="Ascentra"
                 columns={[
                   {
                     title: "Company",
@@ -37,10 +37,9 @@ export default function Layout() {
                   {
                     title: "Services",
                     items: [
-                      { label: "Web Development", href: "#" },
-                      { label: "SEO", href: "#" },
-                      { label: "Branding", href: "#" },
-                      { label: "UI/UX Design", href: "#" },
+                      { label: "Website Creation & Upgrade", href: "#services" },
+                      { label: "AI Receptionist Services", href: "#services" },
+                      { label: "Meta Advertisements", href: "#services" },
                     ],
                   },
                   {
@@ -49,11 +48,10 @@ export default function Layout() {
                       { label: "Twitter", href: "#" },
                       { label: "LinkedIn", href: "#" },
                       { label: "Instagram", href: "#" },
-                      { label: "Dribbble", href: "#" },
                     ],
                   },
                 ]}
-                copyright="© 2026 Webild. All rights reserved."
+                copyright="© 2026 Ascentra. All rights reserved."
                 links={[
                   { label: "Privacy Policy", href: "#" },
                   { label: "Terms of Service", href: "#" },
