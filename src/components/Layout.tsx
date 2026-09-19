@@ -17,7 +17,7 @@ export default function Layout() {
                   { name: "Team", href: "#team" },
                   { name: "Contact", href: "#contact" },
                 ]}
-                ctaButton={{ text: "Get Started", href: "#contact-personal" }}
+                ctaButton={{ text: "Get Started", href: "#contact" }}
               />
       <main className="flex-grow">
         <Outlet />
