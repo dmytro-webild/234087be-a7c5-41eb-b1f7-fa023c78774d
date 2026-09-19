@@ -10,7 +10,7 @@ export default function ServicesSection() {
         textAnimation="slide-up"
         features={[
           {
-            title: "Website Creation & Upgrade",
+            title: "Website Creation & Upgrades",
             description: "High-performing, modern websites engineered to drive conversions and grow your brand.",
             bentoComponent: "checklist-timeline",
             heading: "Development Workflow",
