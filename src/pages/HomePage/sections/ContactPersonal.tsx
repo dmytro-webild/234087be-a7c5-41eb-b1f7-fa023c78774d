@@ -53,7 +53,7 @@ export default function ContactPersonalSection() {
 
           <div className="flex flex-col sm:flex-row lg:flex-col gap-4 w-full sm:w-auto shrink-0">
             <a
-              href="mailto:cole@ascentramedia.com"
+              href="mailto:coleglinesascentra@gmail.com"
               className="secondary-button p-4 rounded flex items-center justify-center sm:justify-start gap-3 text-foreground hover:-translate-y-0.5 transition-transform"
             >
               <div className="p-2 primary-button rounded-full text-primary-cta-text">
@@ -61,7 +61,7 @@ export default function ContactPersonalSection() {
               </div>
               <div className="text-left">
                 <p className="text-xs text-accent">Email Directly</p>
-                <p className="text-sm font-semibold">cole@ascentramedia.com</p>
+                <p className="text-sm font-semibold">coleglinesascentra@gmail.com</p>
               </div>
             </a>
 
@@ -102,7 +102,7 @@ export default function ContactPersonalSection() {
 
           <div className="flex flex-col sm:flex-row lg:flex-col gap-4 w-full sm:w-auto shrink-0">
             <a
-              href="mailto:coleatkinson@ascentramedia.com"
+              href="mailto:coleatkinsonascentra@gmail.com"
               className="secondary-button p-4 rounded flex items-center justify-center sm:justify-start gap-3 text-foreground hover:-translate-y-0.5 transition-transform"
             >
               <div className="p-2 primary-button rounded-full text-primary-cta-text">
@@ -110,7 +110,7 @@ export default function ContactPersonalSection() {
               </div>
               <div className="text-left">
                 <p className="text-xs text-accent">Email Directly</p>
-                <p className="text-sm font-semibold">coleatkinson@ascentramedia.com</p>
+                <p className="text-sm font-semibold">coleatkinsonascentra@gmail.com</p>
               </div>
             </a>
 
