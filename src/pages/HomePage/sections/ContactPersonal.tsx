@@ -35,7 +35,7 @@ export default function ContactPersonalSection() {
           <div className="flex flex-col sm:flex-row items-center gap-6 text-center sm:text-left">
             <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden shrink-0 border-2 border-primary-cta/20 shadow-md">
               <ImageOrVideo
-                imageSrc="https://storage.googleapis.com/webild/users/user_3JQU3pRqc2xbd0vbgOX0M4axBzx/uploaded-1789798780523-mg90s697.jpg"
+                imageSrc="https://storage.googleapis.com/webild/users/user_3JQU3pRqc2xbd0vbgOX0M4axBzx/uploaded-1789798780523-mg90s697.jpg?_wi=1"
                 className="w-full h-full object-cover object-top"
               />
             </div>
@@ -84,7 +84,7 @@ export default function ContactPersonalSection() {
           <div className="flex flex-col sm:flex-row items-center gap-6 text-center sm:text-left">
             <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden shrink-0 border-2 border-primary-cta/20 shadow-md">
               <ImageOrVideo
-                imageSrc="https://storage.googleapis.com/webild/users/user_3JQU3pRqc2xbd0vbgOX0M4axBzx/uploaded-1789798780524-ioljuu47.jpg"
+                imageSrc="https://storage.googleapis.com/webild/users/user_3JQU3pRqc2xbd0vbgOX0M4axBzx/uploaded-1789798780524-ioljuu47.jpg?_wi=1"
                 className="w-full h-full object-cover object-top"
               />
             </div>
