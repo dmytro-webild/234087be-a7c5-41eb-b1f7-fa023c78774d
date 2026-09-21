@@ -15,16 +15,16 @@ export default function HeroSection(): React.JSX.Element {
         primaryButton={{ text: "Start Project", href: "#contact" }}
         secondaryButton={{ text: "View Work", href: "#work" }}
         leftItems={[
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-1.webp" },
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-4.webp" },
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-6.webp" },
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-7.webp" },
+                  { imageSrc: "https://picsum.photos/seed/1604496805/1200/800" },
+                  { imageSrc: "https://picsum.photos/seed/750221651/1200/800" },
+                  { imageSrc: "https://picsum.photos/seed/131156490/1200/800" },
+                  { imageSrc: "https://picsum.photos/seed/1990816992/1200/800" },
                 ]}
         rightItems={[
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-2.webp" },
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-5.webp" },
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-3.webp" },
-                  { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-8.webp" },
+                  { imageSrc: "https://picsum.photos/seed/389081055/1200/800" },
+                  { imageSrc: "https://picsum.photos/seed/1195032752/1200/800" },
+                  { imageSrc: "https://picsum.photos/seed/423077116/1200/800" },
+                  { imageSrc: "https://picsum.photos/seed/1976108597/1200/800" },
                 ]}
       />
             </div>
