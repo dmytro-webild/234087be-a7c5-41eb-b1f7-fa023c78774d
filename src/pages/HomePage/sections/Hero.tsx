@@ -15,17 +15,15 @@ export default function HeroSection(): React.JSX.Element {
         primaryButton={{ text: "Start Project", href: "#contact" }}
         secondaryButton={{ text: "View Work", href: "#work" }}
         leftItems={[
-                  { imageSrc: "https://picsum.photos/seed/1604496805/1200/800" },
-                  { imageSrc: "https://picsum.photos/seed/750221651/1200/800" },
-                  { imageSrc: "https://picsum.photos/seed/131156490/1200/800" },
-                  { imageSrc: "https://picsum.photos/seed/1990816992/1200/800" },
-                ]}
+          { imageSrc: "https://storage.googleapis.com/webild/users/user_3JQU3pRqc2xbd0vbgOX0M4axBzx/uploaded-1790025502712-84gn3igk.jpg" },
+          { imageSrc: "https://storage.googleapis.com/webild/users/user_3JQU3pRqc2xbd0vbgOX0M4axBzx/uploaded-1790025502713-twynv2i2.jpg" },
+          { imageSrc: "https://storage.googleapis.com/webild/users/user_3JQU3pRqc2xbd0vbgOX0M4axBzx/uploaded-1790025502713-qbrd19m7.jpg" },
+        ]}
         rightItems={[
-                  { imageSrc: "https://picsum.photos/seed/389081055/1200/800" },
-                  { imageSrc: "https://picsum.photos/seed/1195032752/1200/800" },
-                  { imageSrc: "https://picsum.photos/seed/423077116/1200/800" },
-                  { imageSrc: "https://picsum.photos/seed/1976108597/1200/800" },
-                ]}
+          { imageSrc: "https://storage.googleapis.com/webild/users/user_3JQU3pRqc2xbd0vbgOX0M4axBzx/uploaded-1790025502714-1tm0zfu8.jpg" },
+          { imageSrc: "https://storage.googleapis.com/webild/users/user_3JQU3pRqc2xbd0vbgOX0M4axBzx/uploaded-1790025502714-vprgm4gi.jpg" },
+          { imageSrc: "https://storage.googleapis.com/webild/users/user_3JQU3pRqc2xbd0vbgOX0M4axBzx/uploaded-1790025502712-84gn3igk.jpg" },
+        ]}
       />
             </div>
   );
