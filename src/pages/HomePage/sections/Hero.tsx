@@ -15,14 +15,14 @@ export default function HeroSection(): React.JSX.Element {
         primaryButton={{ text: "Start Project", href: "#contact" }}
         secondaryButton={{ text: "View Work", href: "#work" }}
         leftItems={[
-          { imageSrc: "https://storage.googleapis.com/webild/users/user_3JQU3pRqc2xbd0vbgOX0M4axBzx/uploaded-1790025502712-84gn3igk.jpg" },
+          { imageSrc: "https://storage.googleapis.com/webild/users/user_3JQU3pRqc2xbd0vbgOX0M4axBzx/uploaded-1790025502712-84gn3igk.jpg?_wi=1" },
           { imageSrc: "https://storage.googleapis.com/webild/users/user_3JQU3pRqc2xbd0vbgOX0M4axBzx/uploaded-1790025502713-twynv2i2.jpg" },
           { imageSrc: "https://storage.googleapis.com/webild/users/user_3JQU3pRqc2xbd0vbgOX0M4axBzx/uploaded-1790025502713-qbrd19m7.jpg" },
         ]}
         rightItems={[
           { imageSrc: "https://storage.googleapis.com/webild/users/user_3JQU3pRqc2xbd0vbgOX0M4axBzx/uploaded-1790025502714-1tm0zfu8.jpg" },
           { imageSrc: "https://storage.googleapis.com/webild/users/user_3JQU3pRqc2xbd0vbgOX0M4axBzx/uploaded-1790025502714-vprgm4gi.jpg" },
-          { imageSrc: "https://storage.googleapis.com/webild/users/user_3JQU3pRqc2xbd0vbgOX0M4axBzx/uploaded-1790025502712-84gn3igk.jpg" },
+          { imageSrc: "https://storage.googleapis.com/webild/users/user_3JQU3pRqc2xbd0vbgOX0M4axBzx/uploaded-1790025502712-84gn3igk.jpg?_wi=2" },
         ]}
       />
             </div>
