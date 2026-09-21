@@ -12,7 +12,7 @@ export default function HeroSection(): React.JSX.Element {
         tag="Ascentra — Digital Growth Agency"
         title="Accelerate Business Growth with Modern Web & AI Solutions"
         description="Ascentra empowers growing businesses with custom Website Creation & Upgrades, 24/7 AI Receptionist Services, and high-converting Meta Advertisements."
-        primaryButton={{ text: "Start Project", href: "#contact-personal" }}
+        primaryButton={{ text: "Start Project", href: "#contact" }}
         secondaryButton={{ text: "View Work", href: "#work" }}
         leftItems={[
                   { imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/default/templates/web-agency-2/shot-1.webp" },
